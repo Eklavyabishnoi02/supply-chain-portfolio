@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- repo hygiene for this portfolio ---
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Keep big/raw data out of git
+data/raw/
+data/processed/
+*.zip
+*.7z
+*.tar.gz
+
+# Power BI autosaves
+*.pbix.tmp
